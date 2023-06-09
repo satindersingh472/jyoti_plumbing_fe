@@ -14,6 +14,18 @@ export default {
 components:{
   NavBar
 },
+metaInfo:{
+    title: 'Jyoti Plumbing Solutions',
+    titleTemplate: '%s | Jyoti Plumbing Solutions',
+    link:[
+            {
+                rel:'icon',
+                type: 'image/png',
+                href: require("@/assets/logo.png")
+            },
+
+        ]
+  },
   data: () => ({
     //
   }),
