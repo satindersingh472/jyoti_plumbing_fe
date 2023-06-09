@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-row no gutters justify="center" class="mt-5">
+    <v-row justify="center" class="mt-5">
       <v-col
         cols="10"
         md="5"
@@ -36,7 +36,7 @@ export default {
         {
           icon: "mdi-check-decagram",
           color: "success",
-          title: "100% Free Service Guarantee",
+          title: "100% Free Service",
           text: "New customers will enjoy 10 years guaranted free services, in case of an issue with the work done by us.",
         },
         {
