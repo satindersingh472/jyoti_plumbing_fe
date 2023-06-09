@@ -1,32 +1,37 @@
 <template>
-  <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
-  </div>
+  <v-app>
+    <nav-bar></nav-bar>
+    <v-main>
+      <router-view />
+    </v-main>
+  </v-app>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import NavBar from './components/navbars/NavBar.vue';
+export default {
+  components:{NavBar},
+  name: "App",
+  metaInfo:{
+    title: 'Jyoti Plumbing Solutions',
+    titleTemplate: '%s | Jyoti Plumbing Solutions',
+    link:[
+            {
+                rel:'icon',
+                type: 'image/png',
+                href: require("@/assets/logo.png")
+            },
 
-nav {
-  padding: 30px;
+        ]
+  },
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+  data: () => ({
+    //
+  }),
+};
+</script>
+<style scoped>
+*{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 </style>
