@@ -2,7 +2,7 @@
   <div>
     <v-container class="grid mt-3 ">
       <v-row>
-        <p class="primary--text text-h4">Locations</p>
+        <p class="indigo--text text-h4">Locations</p>
       </v-row>
       <v-row no-gutters class="mt-3">
         <p class="pa-2">

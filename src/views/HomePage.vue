@@ -16,11 +16,12 @@
             width="100%"
             height="250px"
           ></v-img>
-          <p class="primary--text text-h3 font-weight-bold mt-4">
+          <p class="indigo--text text-h3 font-weight-bold mt-4">
             Jyoti Plumbing Solutions Company
           </p>
         </v-col>
       </v-row>
+      <circle-cards></circle-cards>
       <cards-description></cards-description>
       <our-brands></our-brands>
       <our-location></our-location>
@@ -33,11 +34,13 @@ import CardsDescription from "@/components/CardsDescription.vue";
 // import PhotoGallery from '@/components/PhotoGallery.vue';
 import OurBrands from "@/components/OurBrands.vue";
 import OurLocation from "@/components/OurLocation.vue";
+import CircleCards from "@/components/CircleCards.vue";
 export default {
   components: {
     CardsDescription,
     OurBrands,
     OurLocation,
+    CircleCards,
   },
   metaInfo: {
     titleTemplate: "Home - Jyoti Plumbing Solutions",
@@ -48,14 +51,14 @@ export default {
           "Jyoti Plumbing Solutions provide 10 years free service guarantee for new house projects. Our services are 100% percent guaranteed for any kind of leaks. ",
       },
       {
-        name:'keywords',
-        content:'best plumbing services, 100% service guarantee, plumber in devigarh, plumber in naneola, plumber in patiala'
-      }
+        name: "keywords",
+        content:
+          "best plumbing services, 100% service guarantee, plumber in devigarh, plumber in naneola, plumber in patiala",
+      },
     ],
   },
   data() {
-    return {
-    };
+    return {};
   },
 };
 </script>

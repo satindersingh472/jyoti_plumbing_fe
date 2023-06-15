@@ -2,7 +2,7 @@
   <v-container class="mt-10">
     <v-row justify="center" no gutters>
       <v-col cols="12" style="display: grid; place-items: center">
-        <p class="text-h4 primary--text">Our Trusted Brands</p>
+        <p class="text-h4 indigo--text ">Our Trusted Brands</p>
         <p class="text-body-2" >We prefer top-most brands for the best results</p>
       </v-col>
     </v-row>
