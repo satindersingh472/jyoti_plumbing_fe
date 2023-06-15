@@ -2,7 +2,7 @@
   <div>
     <v-app-bar app elevate-on-scroll>
       <v-row no-gutters >
-        <v-col align-self="center" ><v-img
+        <v-col cols="4" align-self="center" ><v-img
         contain
         src="@/assets/logo.png"
         width="100px"
@@ -10,7 +10,7 @@
         position="center"
       ></v-img></v-col>
       <!-- <v-spacer></v-spacer> -->
-      <v-col align-self="center" ><desktop-nav-bar v-if="desktop_view === true"></desktop-nav-bar>
+      <v-col cols="8" align-self="center" ><desktop-nav-bar v-if="desktop_view === true"></desktop-nav-bar>
       <mobile-nav-bar v-if="desktop_view === false"></mobile-nav-bar></v-col>
       </v-row>
      

@@ -2,8 +2,8 @@
   <div>
     <v-container class="grid">
       <v-row>
-        <v-col align-self="center" v-for="(link, index) in links" :key="index">
-          <p class="indigo--text text-h6 ma-0 font-weight-regular">{{ link["name"] }}</p>
+        <v-col cols="auto" align-self="center" v-for="(link, index) in links" :key="index">
+          <p class="indigo--text text-body-1 ma-0 font-weight-regular">{{ link["name"] }}</p>
         </v-col>
       </v-row>
     </v-container>
@@ -25,7 +25,10 @@ export default {
             name:'Emergency'
         },
         {
-          name: "Contact",
+            name:'About Us'
+        },
+        {
+          name: "Contact Us",
         },
         {
           name: "Location",

@@ -26,7 +26,7 @@
             height="150px"
             width="300px"
           >
-            <v-card-text class="text-body-2">
+            <v-card-text class="text-subtitle-2">
               {{ location["street"] }}, {{ location['city'] }}, {{ location['state'] }}
             </v-card-text>
             <v-card-actions
