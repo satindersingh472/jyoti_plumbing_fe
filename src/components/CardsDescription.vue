@@ -8,7 +8,7 @@
         v-for="(card, index) in cards"
         :key="index"
       >
-        <v-card height="200px">
+        <v-card shaped elevation="5" class="grey lighten-2" height="200px">
           <v-card-title
             ><v-icon :class="`${card['color']}--text mr-2`" size="35">{{
               card["icon"]

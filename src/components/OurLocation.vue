@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-container class="grid mt-3 ">
+    <v-container class="grid mt-3">
       <v-row>
         <p class="indigo--text text-h4">Locations</p>
       </v-row>
@@ -19,11 +19,15 @@
           :key="index"
         >
           <!-- <v-card-title class="font-weight-regular" >{{ location['name'] }}</v-card-title -->
-          <v-card class="pa-4 grid" elevation="5" height="200px">
-            <v-card-subtitle class="pa-0">{{location['name']}} location Address</v-card-subtitle>
-            <v-card-text class="mt-3 text-body-1">
-              {{ location["street"] }}, {{ location["city"] }},
-              {{ location["state"] }}
+          <v-card
+            class="pa-4 grid grey lighten-1"
+            shaped
+            elevation="5"
+            height="150px"
+            width="300px"
+          >
+            <v-card-text class="text-body-2">
+              {{ location["street"] }}, {{ location['city'] }}, {{ location['state'] }}
             </v-card-text>
             <v-card-actions
               ><v-btn class="primary" :href="location['google_link']"

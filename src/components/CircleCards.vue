@@ -19,17 +19,17 @@ export default {
     return {
       circles: [
         {
-            color:'primary',
+            color:'green',
           icon: "mdi-home",
           title: "Residential Plumbing",
         },
         {
-            color:'orange',
-            icon:'mdi-home',
+            color:'yellow darken-4',
+            icon:'mdi-office-building',
             title:'Commercial Plumbing'
         },{
-            color:'red',
-            icon:'mdi-alert',
+            color:'blue',
+            icon:'mdi-water-alert',
             title:'Emergency Services'
         }
       ],
