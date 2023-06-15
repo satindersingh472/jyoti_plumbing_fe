@@ -7,9 +7,9 @@
     >
       <v-row justify="center">
         <v-col
-        order="2"
-        cols="12"
-        md="6"
+          order="2"
+          cols="12"
+          md="6"
           class="md-mt-2 text-center"
           style="display: grid; place-items: center"
         >
@@ -21,16 +21,18 @@
           ></v-img>
         </v-col>
         <v-col order="1" align-self="center" class="text-center"
-          ><p class="primary--text  text-h3 font-weight-bold xs-mt-4">
+          ><p class="primary--text text-h3 font-weight-bold xs-mt-4">
             Jyoti Plumbing Solutions Company
           </p>
-          <p class="text-subtitle-2 secondary--text ">For all your plumbing needs call us at +91 9646196562</p></v-col
+          <p class="text-subtitle-2 secondary--text">
+            For all your plumbing needs call us at +91 9646196562
+          </p></v-col
         >
       </v-row>
       <circle-cards></circle-cards>
       <cards-description></cards-description>
       <our-brands></our-brands>
-      <our-location></our-location>
+      <great-reasons></great-reasons>
     </v-container>
   </div>
 </template>
@@ -39,14 +41,14 @@
 import CardsDescription from "@/components/CardsDescription.vue";
 // import PhotoGallery from '@/components/PhotoGallery.vue';
 import OurBrands from "@/components/OurBrands.vue";
-import OurLocation from "@/components/OurLocation.vue";
 import CircleCards from "@/components/CircleCards.vue";
+import GreatReasons from '@/components/GreatReasons.vue';
 export default {
   components: {
     CardsDescription,
     OurBrands,
-    OurLocation,
     CircleCards,
+    GreatReasons,
   },
   metaInfo: {
     titleTemplate: "Home - Jyoti Plumbing Solutions",

@@ -3,7 +3,7 @@
     <v-row justify="center" no gutters>
       <v-col align-self="center" cols="12" md="6">
         <p class="text-h4 text-md-h3 primary--text">Our Trusted Brands</p>
-        <p class="primary--text font-weight-bold" >We take huge care of customer's money</p>
+        <p class="primary--text font-weight-bold" >We care for customer's money</p>
         <p class="secondary--text">
           We prefer top-most brands for the best results. We give priority to
           the choice of a customer but still we do not compromise with the

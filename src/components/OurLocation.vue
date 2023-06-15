@@ -2,7 +2,7 @@
   <div>
     <v-container class="grid mt-3">
       <v-row>
-        <p class="primary--text text-h4">Locations</p>
+        <p class="primary--text text-h4"> <v-icon x-large class="primary--text" >mdi-map-marker-outline</v-icon> Locations</p>
       </v-row>
       <v-row no gutters>
         <v-col
@@ -15,15 +15,17 @@
         >
           <!-- <v-card-title class="font-weight-regular" >{{ location['name'] }}</v-card-title -->
           <v-card
-            class="pa-4 grid grey lighten-1"
+            class="pa-4 grid grey lighten-2"
             shaped
             elevation="5"
             height="150px"
             width="300px"
           >
-            <v-card-text class="text-subtitle-2">
+          <p>{{ location['street'] }}</p>
+          <p>{{ location['city'] }}, {{ location['state'] }}</p>
+            <!-- <v-card-text class="text-subtitle-2">
               {{ location["street"] }}, {{ location['city'] }}, {{ location['state'] }}
-            </v-card-text>
+            </v-card-text> -->
             <v-card-actions
               ><v-btn class="secondary" :href="location['google_link']"
                 >Get Directions</v-btn
