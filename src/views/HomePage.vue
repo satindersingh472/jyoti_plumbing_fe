@@ -16,7 +16,7 @@
             width="100%"
             height="250px"
           ></v-img>
-          <p class="primary--text text-h3 font-weight-bold mt-2 mb-4">
+          <p class="primary--text text-h3 font-weight-bold mt-4">
             Jyoti Plumbing Solutions Company
           </p>
         </v-col>
