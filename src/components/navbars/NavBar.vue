@@ -12,7 +12,7 @@
           ></v-img
         ></v-col>
         <v-col style="justify-items: end;display: grid;" align-self="center"
-          ><desktop-nav-bar v-if="desktop_view === true"></desktop-nav-bar
+          > <desktop-nav-bar style="justify-self: center;" v-if="desktop_view === true"></desktop-nav-bar
           ><mobile-nav-bar v-if="desktop_view === false"></mobile-nav-bar
         ></v-col>
       </v-row>
