@@ -23,7 +23,8 @@
         <v-col order="1" align-self="center" class="text-center"
           ><p class="indigo--text text-h3 font-weight-bold xs-mt-4">
             Jyoti Plumbing Solutions Company
-          </p></v-col
+          </p>
+          <p class="text-subtitle-2">For all your plumbing needs call us at +91 9646196562</p></v-col
         >
       </v-row>
       <circle-cards></circle-cards>

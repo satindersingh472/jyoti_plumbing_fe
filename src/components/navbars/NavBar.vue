@@ -1,22 +1,25 @@
 <template>
   <div>
-    <v-app-bar app flat elevate-on-scroll>
-      <v-img
+    <v-app-bar app elevate-on-scroll>
+      <v-row no-gutters >
+        <v-col align-self="center" ><v-img
         contain
         src="@/assets/logo.png"
-        width="50px"
+        width="100px"
         height="50px"
-        position="start"
-      ></v-img>
-     <v-spacer></v-spacer>
-      <desktop-nav-bar v-if="desktop_view === true"></desktop-nav-bar>
-      <mobile-nav-bar v-if="desktop_view === false" ></mobile-nav-bar>
+        position="center"
+      ></v-img></v-col>
+      <!-- <v-spacer></v-spacer> -->
+      <v-col align-self="center" ><desktop-nav-bar v-if="desktop_view === true"></desktop-nav-bar>
+      <mobile-nav-bar v-if="desktop_view === false"></mobile-nav-bar></v-col>
+      </v-row>
+     
     </v-app-bar>
   </div>
 </template>
 
 <script>
-import DesktopNavBar from './DesktopNavBar.vue';
+import DesktopNavBar from "./DesktopNavBar.vue";
 import MobileNavBar from "./MobileNavBar.vue";
 export default {
   components: { MobileNavBar, DesktopNavBar },
@@ -39,10 +42,14 @@ export default {
   },
   data() {
     return {
-      desktop_view: false
-    }
+      desktop_view: false,
+    };
   },
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.grid{
+  display: grid;
+  place-items: center;
+}</style>
