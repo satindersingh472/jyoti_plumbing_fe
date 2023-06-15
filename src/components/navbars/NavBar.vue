@@ -2,7 +2,7 @@
   <div>
     <v-app-bar app elevate-on-scroll>
       <v-row no-gutters>
-        <v-col cols="4" align-self="center"
+        <v-col cols="2" align-self="center"
           ><v-img
             contain
             src="@/assets/logo.png"

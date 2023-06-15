@@ -3,17 +3,20 @@
         <v-app-bar-nav-icon @click="drawer = !drawer" ></v-app-bar-nav-icon>
         <v-navigation-drawer
       v-model="drawer"
-        right
+        left
+        clipped
         absolute
-        temporary
-        height="50vh"
+        height="100vh"
     >
       <v-list
       >
         <v-list-item-group
           v-model="group"
-          class="text-body-1"
+          class="text-body-1 text-center "
         >
+        <v-list-item>
+          <v-icon @click="drawer = false" >mdi-close</v-icon>
+        </v-list-item>
           <v-list-item>
             <v-list-item-title>Contact</v-list-item-title>
           </v-list-item>
