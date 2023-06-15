@@ -55,18 +55,6 @@ export default {
   },
   data() {
     return {
-      services: [
-        {
-          name: "Flushing",
-          image:
-            "https://www.reshot.com/preview-assets/icons/7T9JFBDCAU/toilet-7T9JFBDCAU.svg",
-        },
-        {
-          name: "Fitting",
-          image:
-            "https://www.reshot.com/preview-assets/icons/T89XN24F7J/water-pipe-T89XN24F7J.svg",
-        },
-      ],
     };
   },
 };

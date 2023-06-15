@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-container class="grid">
+    <v-container class="grid mt-3 ">
       <v-row>
         <p class="primary--text text-h4">Locations</p>
       </v-row>
