@@ -8,7 +8,7 @@
         v-for="(card, index) in cards"
         :key="index"
       >
-        <v-card shaped elevation="5" class="grey lighten-2" height="200px">
+        <v-card shaped elevation="5" class="grey lighten-2" height="150px">
           <v-card-title
             ><v-icon :class="`${card['color']}--text mr-2`" size="35">{{
               card["icon"]
@@ -43,7 +43,7 @@ export default {
           icon: "mdi-draw-pen",
           color: "blue",
           title: "Project Blueprint",
-          text: "We provide blueprints of the project after completion to track the plumbing easily. It gets easy to modify something in the future with a blueprint. It includes details of the structure, quality and type of material used.",
+          text: "Customers will get blueprint of project and also the details of material used.",
         },
       ],
     };

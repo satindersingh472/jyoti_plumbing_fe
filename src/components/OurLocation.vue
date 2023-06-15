@@ -2,12 +2,7 @@
   <div>
     <v-container class="grid mt-3">
       <v-row>
-        <p class="indigo--text text-h4">Locations</p>
-      </v-row>
-      <v-row no-gutters class="mt-3">
-        <p class="pa-2">
-          We have 2 locations to provide quick services in different areas
-        </p>
+        <p class="primary--text text-h4">Locations</p>
       </v-row>
       <v-row no gutters>
         <v-col
@@ -30,7 +25,7 @@
               {{ location["street"] }}, {{ location['city'] }}, {{ location['state'] }}
             </v-card-text>
             <v-card-actions
-              ><v-btn class="primary" :href="location['google_link']"
+              ><v-btn class="secondary" :href="location['google_link']"
                 >Get Directions</v-btn
               ></v-card-actions
             >

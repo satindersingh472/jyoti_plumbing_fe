@@ -1,18 +1,15 @@
 <template>
   <v-container class="mt-10">
     <v-row justify="center" no gutters>
-      <v-col cols="12" style="display: grid; place-items: center">
-        <p class="text-h4 indigo--text ">Our Trusted Brands</p>
-        <p class="text-body-2" >We prefer top-most brands for the best results</p>
+      <v-col cols="12" md="6" >
+        <p class="text-h4 text-md-h3 primary--text ">Our Trusted Brands</p>
+        <p class="secondary--text" >We prefer top-most brands for the best results.</p>
       </v-col>
-    </v-row>
+      <v-col cols="12" md="6" >
     <v-row justify="center">
       <v-col
         style="display: grid; place-items: center"
-        cols="12"
-        sm="6"
-        md="4"
-        lg="3"
+        md="6"
         v-for="(brand, index) in brands"
         :key="index"
       >
@@ -25,6 +22,8 @@
           height="100px"
         ></v-img>
       </v-col>
+    </v-row>
+    </v-col>
     </v-row>
   </v-container>
 </template>
@@ -64,4 +63,12 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+@import '@/sass/variables.scss';
+.regular-text{
+  color:$regular-text;
+}
+
+
+</style>

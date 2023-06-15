@@ -3,7 +3,7 @@
     <v-container class="grid">
       <v-row>
         <v-col cols="auto" align-self="center" v-for="(link, index) in links" :key="index">
-          <p class="indigo--text text-body-1 ma-0 font-weight-regular">{{ link["name"] }}</p>
+          <p class="secondary--text text-body-1 ma-0 font-weight-regular">{{ link["name"] }}</p>
         </v-col>
       </v-row>
     </v-container>
