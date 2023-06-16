@@ -1,24 +1,18 @@
 <template>
   <div>
-    <v-container
-      fluid
-      class="fill-height"
-      style="display: grid; place-items: center"
-    >
-      <v-row justify="center">
-        <v-col
-          order="2"
-          cols="12"
-          md="6"
-          class="md-mt-2 text-center"
-          style="display: grid; place-items: center"
-        >
+    <v-container fluid class="fill-height grid">
+      <v-row justify="center" class="my-5">
+        <v-col order="2" cols="12" md="6" class="md-mt-2 text-center grid">
           <v-img
-            src="@/assets/gallery/10_years_free_service.png"
+            src="@/assets/gallery/new_logo.png"
             contain
+            class="logo-image grid"
+            position="center"
             width="100%"
-            height="250px"
-          ></v-img>
+            height="300px"
+          >
+          </v-img
+          >
         </v-col>
         <v-col order="1" align-self="center" class="text-center"
           ><p class="primary--text text-h3 font-weight-bold xs-mt-4">
@@ -42,7 +36,7 @@ import CardsDescription from "@/components/CardsDescription.vue";
 // import PhotoGallery from '@/components/PhotoGallery.vue';
 import OurBrands from "@/components/OurBrands.vue";
 import CircleCards from "@/components/CircleCards.vue";
-import GreatReasons from '@/components/GreatReasons.vue';
+import GreatReasons from "@/components/GreatReasons.vue";
 export default {
   components: {
     CardsDescription,
@@ -71,4 +65,13 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.logo-image {
+  opacity: 0.2;
+  border:1px dashed gray;
+}
+.grid {
+  display: grid;
+  place-items: center;
+}
+</style>

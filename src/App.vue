@@ -31,5 +31,8 @@ export default {
 };
 </script>
 <style lang="scss" >
-
+.grid{
+  display: grid;
+  place-items: center;
+}
 </style>
