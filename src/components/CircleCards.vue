@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-container class="grid">
+    <v-container class="grid" fluid>
       <v-row no gutters justify-sm="center" >
         <v-col class="grid" cols="12" sm="6" lg="4" v-for="(circle, index) in circles" :key="index">
           <v-sheet tile  elevation="5" height="175px" width="175px" class="grid light-blue lighten-4 rounded-circle ">

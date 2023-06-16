@@ -1,9 +1,9 @@
 <template>
   <div>
-    <v-container class="grid">
+    <v-container class="grid mt-5">
       <v-row no-gutters justify="center">
         <v-col align-self="center" cols="12" md="6">
-          <p class="primary--text text-h4 text-md-h3">Reasons To Choose Us</p>
+          <p  class="primary--text text-h4 text-md-h3">Reasons To Choose Us</p>
           <p class="primary--text font-weight-bold">
             You can rely on our experienced and educated employees
           </p>
@@ -14,7 +14,7 @@
             branches to help serve our customers faster and efficient.
           </p>
         </v-col>
-        <v-col class="grid" cols="12" md="6">
+        <v-col align-self="center" class="grid" cols="12" md="6">
           <v-list>
             <v-list-item v-for="(item, index) in items" :key="index">
               <v-list-item-icon

@@ -1,18 +1,22 @@
 <template>
   <div>
-    <v-container fluid class="fill-height grid">
-      <v-row justify="center" class="my-5">
-        <v-col order="2" cols="12" md="6" class="md-mt-2 text-center grid">
+    <v-container
+      fluid
+      class="fill-height grid"
+    >
+      <v-row justify="center">
+        <v-col
+          order-md="2"
+          cols="12"
+          md="6"
+          class=" grid md-mt-2 text-center"
+        >
           <v-img
-            src="@/assets/gallery/new_logo.png"
+            src="@/assets/gallery/10_years_free_service.png"
             contain
-            class="logo-image grid"
-            position="center"
             width="100%"
-            height="300px"
-          >
-          </v-img
-          >
+            height="250px"
+          ></v-img>
         </v-col>
         <v-col order="1" align-self="center" class="text-center"
           ><p class="primary--text text-h3 font-weight-bold xs-mt-4">
@@ -20,7 +24,9 @@
           </p>
           <p class="text-subtitle-2 secondary--text">
             For all your plumbing needs call us at +91 9646196562
-          </p></v-col
+          </p>
+          <v-btn class="primary"  >Request Estimate</v-btn>
+          </v-col
         >
       </v-row>
       <circle-cards></circle-cards>
@@ -36,7 +42,7 @@ import CardsDescription from "@/components/CardsDescription.vue";
 // import PhotoGallery from '@/components/PhotoGallery.vue';
 import OurBrands from "@/components/OurBrands.vue";
 import CircleCards from "@/components/CircleCards.vue";
-import GreatReasons from "@/components/GreatReasons.vue";
+import GreatReasons from '@/components/GreatReasons.vue';
 export default {
   components: {
     CardsDescription,
@@ -66,12 +72,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.logo-image {
-  opacity: 0.2;
-  border:1px dashed gray;
-}
-.grid {
+.grid{
   display: grid;
   place-items: center;
 }
+
 </style>

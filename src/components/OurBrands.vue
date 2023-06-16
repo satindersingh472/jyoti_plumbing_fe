@@ -1,7 +1,7 @@
 <template>
   <v-container class="mt-10">
     <v-row justify="center" no-gutters>
-      <v-col align-self="center" cols="12" md="6">
+      <v-col order="2" align-self="center" cols="12" md="6">
         <p class="text-h4 text-md-h3 primary--text">Our Trusted Brands</p>
         <p class="primary--text font-weight-bold" >We care for customer's money</p>
         <p class="secondary--text">

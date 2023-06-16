@@ -11,7 +11,8 @@ export default new Vuetify({
                 primary:colors.indigo,
                 secondary:colors.blueGrey.darken1,
                 accent:colors.red.darken3
-            }
+            },
+          
         }
     },
 });
