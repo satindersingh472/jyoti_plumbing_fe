@@ -4,7 +4,7 @@
       <v-row no-gutters justify="center">
         <v-col align-self="center" cols="12" md="6">
           <p  class="primary--text text-h4 text-md-h3">Reasons To Choose Us</p>
-          <p class="primary--text font-weight-bold">
+          <p class="primary--text font-weight-bold ">
             You can rely on our experienced and educated employees
           </p>
           <p class="secondary--text">
