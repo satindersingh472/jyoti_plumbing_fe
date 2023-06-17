@@ -22,7 +22,7 @@
                   item["icon"]
                 }}</v-icon></v-list-item-icon
               >
-              <v-list-item-content class="secondary--text">{{
+              <v-list-item-content class="secondary--text text-h6 text-md-h5 ">{{
                 item["name"]
               }}</v-list-item-content>
             </v-list-item>

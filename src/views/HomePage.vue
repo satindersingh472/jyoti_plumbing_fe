@@ -30,7 +30,7 @@
         >
       </v-row>
       <circle-cards></circle-cards>
-      <cards-description></cards-description>
+      <niche-cards></niche-cards>
       <our-brands></our-brands>
       <great-reasons></great-reasons>
     </v-container>
@@ -38,14 +38,14 @@
 </template>
 
 <script>
-import CardsDescription from "@/components/CardsDescription.vue";
+import NicheCards from "@/components/NicheCards.vue";
 // import PhotoGallery from '@/components/PhotoGallery.vue';
 import OurBrands from "@/components/OurBrands.vue";
 import CircleCards from "@/components/CircleCards.vue";
 import GreatReasons from '@/components/GreatReasons.vue';
 export default {
   components: {
-    CardsDescription,
+   NicheCards,
     OurBrands,
     CircleCards,
     GreatReasons,

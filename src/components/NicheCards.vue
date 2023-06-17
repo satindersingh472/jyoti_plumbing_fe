@@ -40,10 +40,10 @@ export default {
           text: "New customers will enjoy 10 years guaranted free services, in case of an issue with the work done by us.",
         },
         {
-          icon: "mdi-draw-pen",
+          icon: "mdi-currency-rupee",
           color: "blue",
-          title: "Project Blueprint",
-          text: "Customers will get blueprint of project and also the details of material used.",
+          title: "Affordable Pricing",
+          text: "We offer best rates for the project by asking the upfront cost of the entire project.",
         },
       ],
     };
